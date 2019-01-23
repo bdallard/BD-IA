@@ -36,12 +36,12 @@ Ouvrez un terminal
 
 ### Rappel des commandes utiles sur terminal 
 
-- pwd : ou je suis (dans quel dossier je suis) 
-- cd *MonRepo* : changer de dossier (direcrtory)
-- ls : lister les objets présents (fichier et dossier) dans le répertoire sélectionné
-- mkdir *NewRepo* : créer un nouveau dossier de nom *NewRepo*  
-- rm *UnFichier* : supprimer un fichier (attention avec cette commande!) 
-- man *UneCommande* : afficher le manuel de la commande sélectionnée
+- **pwd** : ou je suis (dans quel dossier je suis) 
+- **cd *MonRepo* ** : changer de dossier (direcrtory)
+- **ls** : lister les objets présents (fichier et dossier) dans le répertoire sélectionné
+- **mkdir** *NewRepo* : créer un nouveau dossier de nom *NewRepo*  
+- **rm *UnFichier* **: supprimer un fichier (attention avec cette commande!) 
+- **man *UneCommande* ** : afficher le manuel de la commande sélectionnée
 
 
 ### Créer son dossier de travail 
