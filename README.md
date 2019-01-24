@@ -54,13 +54,13 @@ Ouvrez un terminal
 
 ### Importer le repository de GitHub 
 
-0 - Aller sur la page <https://github.com/bdallard/PooMsi/>
+0 - Aller sur la page <https://github.com/bdallard/BD-IA/>
 
 1 - Appuyer sur le boutton vert *clone and download* (pour copier le lien du repo) 
 
 2 - Cloner le repository (dans votre dossier Cours) avec la commande suivante : 
 ```
-git clone https://github.com/bdallard/PooMsi.git
+git clone https://github.com/bdallard/BD-IA.git
 ```
 
 ### Lancer Jupyter
