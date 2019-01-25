@@ -37,11 +37,11 @@ Ouvrez un terminal
 ### Rappel des commandes utiles sur terminal 
 
 - **pwd** : ou je suis (dans quel dossier je suis) 
-- **cd *MonRepo* ** : changer de dossier (direcrtory)
+- **cd ** <MonRepo>  : changer de dossier (direcrtory)
 - **ls** : lister les objets présents (fichier et dossier) dans le répertoire sélectionné
-- **mkdir** *NewRepo* : créer un nouveau dossier de nom *NewRepo*  
-- **rm *UnFichier* **: supprimer un fichier (attention avec cette commande!) 
-- **man *UneCommande* ** : afficher le manuel de la commande sélectionnée
+- **mkdir** <NewRepo> : créer un nouveau dossier de nom <NewRepo>  
+- **rm <UnFichier> **: supprimer un fichier (attention avec cette commande!) 
+- **man <UneCommande> ** : afficher le manuel de la commande sélectionnée
 
 
 ### Créer son dossier de travail 
@@ -71,8 +71,47 @@ Pour lancer jupyter, assurez vous de bien être positioné dans votre repo de tr
 jupyter notebook 
 ```
 
-### mini git no deep shit 
-Pour ceux qui n'arrivent pas à pull 
+
+## mini git no deep shit 
+
+### créer un nouveau dépôt
+Pour créez un nouveau dossier, ouvrez le et exécutez la commande :
+```
+git init
+```
+
+### cloner un dépôt
+Pour créez une copie de votre dépôt local en exécutant la commande : 
+```
+git clone /path/to/repository
+```
+si vous utilisez un serveur distant, cette commande sera : 
+```
+git clone username@host:/path/to/repository
+```
+
+### ajouter & valider des fichiers 
+Vous pouvez proposer un changement (l'ajouter à l'Index) en exécutant les commandes : 
+```
+git add <filename>
+git add *
+```
+C'est la première étape dans un workflow git basique. Pour valider ces changements, utilisez
+```
+git commit -m "Message de validation"
+```
+Le fichier est donc ajouté au HEAD, mais pas encore dans votre dépôt distant. Pour cela il faut exécuter la commande : 
+```
+git push origin master
+```
+
+### mettre à jour & fusionner
+pour mettre à jour votre dépôt local vers les dernières validations, exécutez la commande
+```
+git pull
+```
+
+Pour ceux qui n'arrivent pas à pull parce qu'ils ont fait des modif dans le repo (no worries), lancer la commande : 
 ```
 git stash
 git pull
