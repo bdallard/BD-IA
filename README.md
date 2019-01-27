@@ -11,11 +11,14 @@ Ce document contient une liste de prérequis en terme de programmes informatique
 
 **Pour Mac** : <https://www.python.org/downloads/mac-osx/>
 
-ou avec le terminal 
+ou avec le terminal : 
 ```
 brew install python3
 brew install python3-pip
 ```
+
+### Installer Homebrew sur votre Mac 
+rendez vous sur : <https://brew.sh/index_fr> et suivre le tutoriel. 
 
 ### Installer Jupyter 
 Jupyter est une application web permettant de créer des notebooks, des fichiers mélangeant à la fois du texte (en syntaxe markdown), des images, des équations mathématiques et bien sur du code.
@@ -36,12 +39,12 @@ Ouvrez un terminal
 
 ### Rappel des commandes utiles sur terminal 
 
-- **pwd** : ou je suis (dans quel dossier je suis) 
-- **cd ** <MonRepo>  : changer de dossier (direcrtory)
-- **ls** : lister les objets présents (fichier et dossier) dans le répertoire sélectionné
-- **mkdir** <NewRepo> : créer un nouveau dossier de nom <NewRepo>  
-- **rm <UnFichier> **: supprimer un fichier (attention avec cette commande!) 
-- **man <UneCommande> ** : afficher le manuel de la commande sélectionnée
+- pwd : ou je suis (dans quel dossier je suis) 
+- cd *MonRepo* : changer de dossier (direcrtory)
+- ls : lister les objets présents (fichier et dossier) dans le répertoire sélectionné
+- mkdir *NewRepo* : créer un nouveau dossier de nom *NewRepo*  
+- rm *UnFichier* : supprimer un fichier (attention avec cette commande!) 
+- man *UneCommande* : afficher le manuel de la commande sélectionnée
 
 
 ### Créer son dossier de travail 
