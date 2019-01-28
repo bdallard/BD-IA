@@ -16,7 +16,7 @@ ou avec le terminal :
 brew install python3
 brew install python3-pip
 ```
-
+<a href ="https://brew.sh/index_fr"> <img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Homebrew_logo.png">
 ### Installer Homebrew sur votre Mac 
 rendez vous sur : <https://brew.sh/index_fr> et suivre le tutoriel. 
 
@@ -114,7 +114,7 @@ pour mettre à jour votre dépôt local vers les dernières validations, exécut
 git pull
 ```
 
-Pour ceux qui n'arrivent pas à pull parce qu'ils ont fait des modif dans le repo (no worries), lancer la commande : 
+Pour ceux qui n'arrivent pas à pull parce qu'ils ont fait des modif dans le repo (no worries), lancer les commandes : 
 ```
 git stash
 git pull
