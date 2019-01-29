@@ -23,10 +23,17 @@ Cliquer sur le logo ci-dessus et suivre le tutoriel.
 ### Installer Jupyter 
 Jupyter est une application web permettant de créer des notebooks, des fichiers mélangeant à la fois du texte (en syntaxe markdown), des images, des équations mathématiques et bien sur du code.
 
-Lancer la commande suivante : 
+Lancer les commandes suivantes : 
 ```
- pip3 install jupyter
+pip3 install --upgrade pip
+pip3 install jupyter
 ``` 
+
+#### Si vous n'avez pas pip pas de panique 
+Lancer la commander suivante: 
+```
+sudo easy_install pip3
+```
 
 ### Installer les dépendances usuelles 
 Lancer la commande suivante : 
