@@ -40,6 +40,10 @@ Lancer la commande suivante :
 ```
 pip3 install numpy matplotlib scipy pandas
 ```
+Afin de vérifier si les librairies en questions sont bien sur votre machine, je vous invite à lancer : 
+```
+pip3 list 
+```
 
 ## Configurer son environnement de travail 
 Ouvrez un terminal
